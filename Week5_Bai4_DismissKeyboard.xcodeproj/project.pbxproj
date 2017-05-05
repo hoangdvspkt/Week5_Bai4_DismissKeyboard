@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		386764641EBC383F004D97AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386764631EBC383F004D97AD /* AppDelegate.swift */; };
+		386764661EBC383F004D97AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386764651EBC383F004D97AD /* ViewController.swift */; };
+		386764691EBC383F004D97AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386764671EBC383F004D97AD /* Main.storyboard */; };
+		3867646B1EBC383F004D97AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3867646A1EBC383F004D97AD /* Assets.xcassets */; };
+		3867646E1EBC383F004D97AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3867646C1EBC383F004D97AD /* LaunchScreen.storyboard */; };
+		386764791EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386764781EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests.swift */; };
+		386764841EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386764831EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		386764751EBC3840004D97AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 386764581EBC383F004D97AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3867645F1EBC383F004D97AD;
+			remoteInfo = Week5_Bai4_DismissKeyboard;
+		};
+		386764801EBC3840004D97AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 386764581EBC383F004D97AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3867645F1EBC383F004D97AD;
+			remoteInfo = Week5_Bai4_DismissKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		386764601EBC383F004D97AD /* Week5_Bai4_DismissKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week5_Bai4_DismissKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		386764631EBC383F004D97AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		386764651EBC383F004D97AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		386764681EBC383F004D97AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3867646A1EBC383F004D97AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3867646D1EBC383F004D97AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3867646F1EBC3840004D97AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386764741EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week5_Bai4_DismissKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		386764781EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week5_Bai4_DismissKeyboardTests.swift; sourceTree = "<group>"; };
+		3867647A1EBC3840004D97AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3867647F1EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week5_Bai4_DismissKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		386764831EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week5_Bai4_DismissKeyboardUITests.swift; sourceTree = "<group>"; };
+		386764851EBC3840004D97AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3867645D1EBC383F004D97AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386764711EBC3840004D97AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3867647C1EBC3840004D97AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		386764571EBC383F004D97AD = {
+			isa = PBXGroup;
+			children = (
+				386764621EBC383F004D97AD /* Week5_Bai4_DismissKeyboard */,
+				386764771EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests */,
+				386764821EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests */,
+				386764611EBC383F004D97AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		386764611EBC383F004D97AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				386764601EBC383F004D97AD /* Week5_Bai4_DismissKeyboard.app */,
+				386764741EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests.xctest */,
+				3867647F1EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		386764621EBC383F004D97AD /* Week5_Bai4_DismissKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				386764631EBC383F004D97AD /* AppDelegate.swift */,
+				386764651EBC383F004D97AD /* ViewController.swift */,
+				386764671EBC383F004D97AD /* Main.storyboard */,
+				3867646A1EBC383F004D97AD /* Assets.xcassets */,
+				3867646C1EBC383F004D97AD /* LaunchScreen.storyboard */,
+				3867646F1EBC3840004D97AD /* Info.plist */,
+			);
+			path = Week5_Bai4_DismissKeyboard;
+			sourceTree = "<group>";
+		};
+		386764771EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				386764781EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests.swift */,
+				3867647A1EBC3840004D97AD /* Info.plist */,
+			);
+			path = Week5_Bai4_DismissKeyboardTests;
+			sourceTree = "<group>";
+		};
+		386764821EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				386764831EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests.swift */,
+				386764851EBC3840004D97AD /* Info.plist */,
+			);
+			path = Week5_Bai4_DismissKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3867645F1EBC383F004D97AD /* Week5_Bai4_DismissKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386764881EBC3840004D97AD /* Build configuration list for PBXNativeTarget "Week5_Bai4_DismissKeyboard" */;
+			buildPhases = (
+				3867645C1EBC383F004D97AD /* Sources */,
+				3867645D1EBC383F004D97AD /* Frameworks */,
+				3867645E1EBC383F004D97AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week5_Bai4_DismissKeyboard;
+			productName = Week5_Bai4_DismissKeyboard;
+			productReference = 386764601EBC383F004D97AD /* Week5_Bai4_DismissKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		386764731EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3867648B1EBC3840004D97AD /* Build configuration list for PBXNativeTarget "Week5_Bai4_DismissKeyboardTests" */;
+			buildPhases = (
+				386764701EBC3840004D97AD /* Sources */,
+				386764711EBC3840004D97AD /* Frameworks */,
+				386764721EBC3840004D97AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386764761EBC3840004D97AD /* PBXTargetDependency */,
+			);
+			name = Week5_Bai4_DismissKeyboardTests;
+			productName = Week5_Bai4_DismissKeyboardTests;
+			productReference = 386764741EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3867647E1EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3867648E1EBC3840004D97AD /* Build configuration list for PBXNativeTarget "Week5_Bai4_DismissKeyboardUITests" */;
+			buildPhases = (
+				3867647B1EBC3840004D97AD /* Sources */,
+				3867647C1EBC3840004D97AD /* Frameworks */,
+				3867647D1EBC3840004D97AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386764811EBC3840004D97AD /* PBXTargetDependency */,
+			);
+			name = Week5_Bai4_DismissKeyboardUITests;
+			productName = Week5_Bai4_DismissKeyboardUITests;
+			productReference = 3867647F1EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		386764581EBC383F004D97AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.hoangdv;
+				TargetAttributes = {
+					3867645F1EBC383F004D97AD = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					386764731EBC3840004D97AD = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3867645F1EBC383F004D97AD;
+					};
+					3867647E1EBC3840004D97AD = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3867645F1EBC383F004D97AD;
+					};
+				};
+			};
+			buildConfigurationList = 3867645B1EBC383F004D97AD /* Build configuration list for PBXProject "Week5_Bai4_DismissKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 386764571EBC383F004D97AD;
+			productRefGroup = 386764611EBC383F004D97AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3867645F1EBC383F004D97AD /* Week5_Bai4_DismissKeyboard */,
+				386764731EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests */,
+				3867647E1EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3867645E1EBC383F004D97AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3867646E1EBC383F004D97AD /* LaunchScreen.storyboard in Resources */,
+				3867646B1EBC383F004D97AD /* Assets.xcassets in Resources */,
+				386764691EBC383F004D97AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386764721EBC3840004D97AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3867647D1EBC3840004D97AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3867645C1EBC383F004D97AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386764661EBC383F004D97AD /* ViewController.swift in Sources */,
+				386764641EBC383F004D97AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386764701EBC3840004D97AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386764791EBC3840004D97AD /* Week5_Bai4_DismissKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3867647B1EBC3840004D97AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386764841EBC3840004D97AD /* Week5_Bai4_DismissKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		386764761EBC3840004D97AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3867645F1EBC383F004D97AD /* Week5_Bai4_DismissKeyboard */;
+			targetProxy = 386764751EBC3840004D97AD /* PBXContainerItemProxy */;
+		};
+		386764811EBC3840004D97AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3867645F1EBC383F004D97AD /* Week5_Bai4_DismissKeyboard */;
+			targetProxy = 386764801EBC3840004D97AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		386764671EBC383F004D97AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386764681EBC383F004D97AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3867646C1EBC383F004D97AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3867646D1EBC383F004D97AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		386764861EBC3840004D97AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		386764871EBC3840004D97AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		386764891EBC3840004D97AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Week5_Bai4_DismissKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoangdv.Week5-Bai4-DismissKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3867648A1EBC3840004D97AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Week5_Bai4_DismissKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoangdv.Week5-Bai4-DismissKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3867648C1EBC3840004D97AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Week5_Bai4_DismissKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoangdv.Week5-Bai4-DismissKeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week5_Bai4_DismissKeyboard.app/Week5_Bai4_DismissKeyboard";
+			};
+			name = Debug;
+		};
+		3867648D1EBC3840004D97AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Week5_Bai4_DismissKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoangdv.Week5-Bai4-DismissKeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week5_Bai4_DismissKeyboard.app/Week5_Bai4_DismissKeyboard";
+			};
+			name = Release;
+		};
+		3867648F1EBC3840004D97AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Week5_Bai4_DismissKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoangdv.Week5-Bai4-DismissKeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Week5_Bai4_DismissKeyboard;
+			};
+			name = Debug;
+		};
+		386764901EBC3840004D97AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Week5_Bai4_DismissKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoangdv.Week5-Bai4-DismissKeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Week5_Bai4_DismissKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3867645B1EBC383F004D97AD /* Build configuration list for PBXProject "Week5_Bai4_DismissKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386764861EBC3840004D97AD /* Debug */,
+				386764871EBC3840004D97AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386764881EBC3840004D97AD /* Build configuration list for PBXNativeTarget "Week5_Bai4_DismissKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386764891EBC3840004D97AD /* Debug */,
+				3867648A1EBC3840004D97AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3867648B1EBC3840004D97AD /* Build configuration list for PBXNativeTarget "Week5_Bai4_DismissKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3867648C1EBC3840004D97AD /* Debug */,
+				3867648D1EBC3840004D97AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3867648E1EBC3840004D97AD /* Build configuration list for PBXNativeTarget "Week5_Bai4_DismissKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3867648F1EBC3840004D97AD /* Debug */,
+				386764901EBC3840004D97AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 386764581EBC383F004D97AD /* Project object */;
+}
